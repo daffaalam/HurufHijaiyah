@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Belajar Huruf Hijaiyah</string>
+    <string name="home_1">
+الَّذِينَ آتَيْنَاهُمُ الْكِتَابَ يَتْلُونَهُ حَقَّ تِلَاوَتِهِ أُولَٰئِكَ يُؤْمِنُونَ بِهِ ۗ وَمَنْ يَكْفُرْ بِهِ فَأُولَٰئِكَ هُمُ الْخَاسِرُونَ
+    </string>
+    <string name="home_2">
+        "Orang-orang yang telah Kami berikan Al Kitab kepadanya, mereka membacanya dengan bacaan yang sebenarnya, mereka itu beriman kepadanya. Dan barangsiapa yang ingkar kepadanya, maka mereka itulah orang-orang yang rugi."
+    </string>
+</resources>
