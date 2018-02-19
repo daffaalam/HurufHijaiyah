@@ -16,6 +16,7 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        setTitle(R.string.app_name);
 
         TextView textView1 = findViewById(R.id.text_home_1);
         TextView textView2 = findViewById(R.id.text_home_2);

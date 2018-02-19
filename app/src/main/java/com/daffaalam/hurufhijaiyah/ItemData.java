@@ -17,7 +17,7 @@ public class ItemData {
         this.gambarHijaiyah = gambarHijaiyah;
     }
 
-    public String getHurufHijaiyah() {
+    String getHurufHijaiyah() {
         return hurufHijaiyah;
     }
 

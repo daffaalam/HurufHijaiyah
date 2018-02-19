@@ -9,10 +9,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by X on 12/5/2017.
- */
-
 public class ItemSamAdapter extends RecyclerView.Adapter<ItemSamAdapter.CustomViewHolder> {
     private ArrayList<ItemSamData> itemSamDataArrayList;
 

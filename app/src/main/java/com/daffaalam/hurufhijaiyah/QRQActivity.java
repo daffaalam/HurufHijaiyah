@@ -17,6 +17,7 @@ public class QRQActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_qrq);
+        setTitle("Metode QRQ");
 
         ImageView qrq1_vid = findViewById(R.id.qrq1_vid);
         ImageView qrq2_vid = findViewById(R.id.qrq2_vid);

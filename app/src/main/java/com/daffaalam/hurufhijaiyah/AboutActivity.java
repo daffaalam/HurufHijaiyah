@@ -17,6 +17,7 @@ public class AboutActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
+        setTitle("About This App");
 
         TextView textView = findViewById(R.id.abt_ver);
         textView.setText("version " + BuildConfig.VERSION_NAME);

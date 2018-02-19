@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,25 +8,6 @@
     android:orientation="vertical"
     android:padding="10dp"
     tools:context="com.daffaalam.hurufhijaiyah.QRQActivity">
-
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        app:cardBackgroundColor="@color/colorBlueP"
-        app:cardCornerRadius="4dp">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:padding="10dp"
-            android:text="Belajar Huruf Hijaiyah"
-            android:textAllCaps="true"
-            android:textColor="@color/colorWhite"
-            android:textSize="25sp" />
-
-    </android.support.v7.widget.CardView>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -66,7 +46,8 @@
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:gravity="center"
-                        android:text="urgensi tartil" />
+                        android:text="urgensi tartil"
+                        tools:ignore="HardcodedText" />
 
                 </LinearLayout>
 
@@ -99,7 +80,8 @@
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:gravity="center"
-                        android:text="3 prinsip" />
+                        android:text="3 prinsip"
+                        tools:ignore="HardcodedText" />
 
                 </LinearLayout>
 
@@ -122,7 +104,8 @@
                         android:gravity="center"
                         android:text="3 prinsip methode QRQ"
                         android:textColor="@color/colorBlack"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText" />
 
                     <WebView
                         android:id="@+id/prinsip_qrq"

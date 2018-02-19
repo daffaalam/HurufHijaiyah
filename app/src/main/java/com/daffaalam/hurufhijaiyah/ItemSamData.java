@@ -1,9 +1,5 @@
 package com.daffaalam.hurufhijaiyah;
 
-/**
- * Created by X on 12/5/2017.
- */
-
 public class ItemSamData {
     private String huruf, awal, tengah, akhir;
 
@@ -14,7 +10,7 @@ public class ItemSamData {
         this.akhir = akhir;
     }
 
-    public String getHuruf() {
+    String getHuruf() {
         return huruf;
     }
 
@@ -22,7 +18,7 @@ public class ItemSamData {
         this.huruf = huruf;
     }
 
-    public String getAwal() {
+    String getAwal() {
         return awal;
     }
 
@@ -30,7 +26,7 @@ public class ItemSamData {
         this.awal = awal;
     }
 
-    public String getTengah() {
+    String getTengah() {
         return tengah;
     }
 
@@ -38,7 +34,7 @@ public class ItemSamData {
         this.tengah = tengah;
     }
 
-    public String getAkhir() {
+    String getAkhir() {
         return akhir;
     }
 

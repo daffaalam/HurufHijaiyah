@@ -150,6 +150,7 @@ public class HijaiyahSambungActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hijaiyah_sambung);
+        setTitle("Huruf Hijaiyah Bersambung");
 
         layoutManager = new LinearLayoutManager(this);
         itemSamAdapter = new ItemSamAdapter(this, itemSamData);

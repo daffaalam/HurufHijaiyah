@@ -86,6 +86,7 @@ public class HijaiyahActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hijaiyah);
+        setTitle("29 Huruf Hijaiyah");
 
         recyclerView = findViewById(R.id.review);
         recyclerView.setHasFixedSize(true);
